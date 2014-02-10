@@ -19,3 +19,7 @@ DerivedData
 
 #CocoaPods
 Pods
+
+contents.xcworkspacedata
+
+/ios/rural.xcodeproj/project.xcworkspace/contents.xcworkspacedata
