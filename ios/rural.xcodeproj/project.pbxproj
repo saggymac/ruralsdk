@@ -20,12 +20,6 @@
 		EC3A624D18A3E14000E5858B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A624C18A3E14000E5858B /* ViewController.m */; };
 		EC3A624F18A3E14000E5858B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3A624E18A3E14000E5858B /* Images.xcassets */; };
 		EC3A627018A3E17000E5858B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A623618A3E14000E5858B /* Foundation.framework */; };
-		EC3A627D18A3E17000E5858B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A625518A3E14000E5858B /* XCTest.framework */; };
-		EC3A627E18A3E17000E5858B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A623618A3E14000E5858B /* Foundation.framework */; };
-		EC3A627F18A3E17000E5858B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A623A18A3E14000E5858B /* UIKit.framework */; };
-		EC3A628218A3E17000E5858B /* libruralsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A626F18A3E17000E5858B /* libruralsdk.a */; };
-		EC3A628818A3E17000E5858B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC3A628618A3E17000E5858B /* InfoPlist.strings */; };
-		EC3A628A18A3E17000E5858B /* ruralsdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A628918A3E17000E5858B /* ruralsdkTests.m */; };
 		EC3A629318A3E19500E5858B /* Rural.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A629218A3E19500E5858B /* Rural.m */; };
 		EC3A629618A4160700E5858B /* libruralsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A626F18A3E17000E5858B /* libruralsdk.a */; };
 		EC3A629918A41F2400E5858B /* PushEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A629818A41F2400E5858B /* PushEditView.m */; };
@@ -33,13 +27,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EC3A628018A3E17000E5858B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EC3A622B18A3E14000E5858B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC3A626E18A3E17000E5858B;
-			remoteInfo = ruralsdk;
-		};
 		EC3A629418A4160000E5858B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EC3A622B18A3E14000E5858B /* Project object */;
@@ -81,15 +68,8 @@
 		EC3A624C18A3E14000E5858B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC3A624E18A3E14000E5858B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC3A625518A3E14000E5858B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EC3A625D18A3E14000E5858B /* ruralTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ruralTests-Info.plist"; sourceTree = "<group>"; };
-		EC3A625F18A3E14000E5858B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC3A626118A3E14000E5858B /* ruralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ruralTests.m; sourceTree = "<group>"; };
 		EC3A626F18A3E17000E5858B /* libruralsdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libruralsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3A627318A3E17000E5858B /* ruralsdk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ruralsdk-Prefix.pch"; sourceTree = "<group>"; };
-		EC3A627C18A3E17000E5858B /* ruralsdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ruralsdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC3A628518A3E17000E5858B /* ruralsdkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ruralsdkTests-Info.plist"; sourceTree = "<group>"; };
-		EC3A628718A3E17000E5858B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EC3A628918A3E17000E5858B /* ruralsdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ruralsdkTests.m; sourceTree = "<group>"; };
 		EC3A629118A3E19500E5858B /* Rural.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rural.h; sourceTree = "<group>"; };
 		EC3A629218A3E19500E5858B /* Rural.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rural.m; sourceTree = "<group>"; };
 		EC3A629718A41F2400E5858B /* PushEditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushEditView.h; sourceTree = "<group>"; };
@@ -119,17 +99,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC3A627918A3E17000E5858B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC3A627D18A3E17000E5858B /* XCTest.framework in Frameworks */,
-				EC3A627F18A3E17000E5858B /* UIKit.framework in Frameworks */,
-				EC3A627E18A3E17000E5858B /* Foundation.framework in Frameworks */,
-				EC3A628218A3E17000E5858B /* libruralsdk.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,9 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				EC3A623C18A3E14000E5858B /* rural */,
-				EC3A625B18A3E14000E5858B /* ruralTests */,
 				EC3A627118A3E17000E5858B /* ruralsdk */,
-				EC3A628318A3E17000E5858B /* ruralsdkTests */,
 				EC3A623518A3E14000E5858B /* Frameworks */,
 				EC3A623418A3E14000E5858B /* Products */,
 			);
@@ -150,7 +117,6 @@
 			children = (
 				EC3A623318A3E14000E5858B /* rural.app */,
 				EC3A626F18A3E17000E5858B /* libruralsdk.a */,
-				EC3A627C18A3E17000E5858B /* ruralsdkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,24 +163,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC3A625B18A3E14000E5858B /* ruralTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A626118A3E14000E5858B /* ruralTests.m */,
-				EC3A625C18A3E14000E5858B /* Supporting Files */,
-			);
-			path = ruralTests;
-			sourceTree = "<group>";
-		};
-		EC3A625C18A3E14000E5858B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A625D18A3E14000E5858B /* ruralTests-Info.plist */,
-				EC3A625E18A3E14000E5858B /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		EC3A627118A3E17000E5858B /* ruralsdk */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,24 +179,6 @@
 			isa = PBXGroup;
 			children = (
 				EC3A627318A3E17000E5858B /* ruralsdk-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EC3A628318A3E17000E5858B /* ruralsdkTests */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A628918A3E17000E5858B /* ruralsdkTests.m */,
-				EC3A628418A3E17000E5858B /* Supporting Files */,
-			);
-			path = ruralsdkTests;
-			sourceTree = "<group>";
-		};
-		EC3A628418A3E17000E5858B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A628518A3E17000E5858B /* ruralsdkTests-Info.plist */,
-				EC3A628618A3E17000E5858B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -291,24 +221,6 @@
 			productReference = EC3A626F18A3E17000E5858B /* libruralsdk.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		EC3A627B18A3E17000E5858B /* ruralsdkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EC3A628E18A3E17000E5858B /* Build configuration list for PBXNativeTarget "ruralsdkTests" */;
-			buildPhases = (
-				EC3A627818A3E17000E5858B /* Sources */,
-				EC3A627918A3E17000E5858B /* Frameworks */,
-				EC3A627A18A3E17000E5858B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EC3A628118A3E17000E5858B /* PBXTargetDependency */,
-			);
-			name = ruralsdkTests;
-			productName = ruralsdkTests;
-			productReference = EC3A627C18A3E17000E5858B /* ruralsdkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,11 +229,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Scott Guyer";
-				TargetAttributes = {
-					EC3A627B18A3E17000E5858B = {
-						TestTargetID = EC3A623218A3E14000E5858B;
-					};
-				};
 			};
 			buildConfigurationList = EC3A622E18A3E14000E5858B /* Build configuration list for PBXProject "rural" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -338,7 +245,6 @@
 			targets = (
 				EC3A623218A3E14000E5858B /* rural */,
 				EC3A626E18A3E17000E5858B /* ruralsdk */,
-				EC3A627B18A3E17000E5858B /* ruralsdkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,14 +258,6 @@
 				EC3A624118A3E14000E5858B /* InfoPlist.strings in Resources */,
 				EC3A624A18A3E14000E5858B /* Main.storyboard in Resources */,
 				CDF646CE18A733650027F7C5 /* RuralConfig.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EC3A627A18A3E17000E5858B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC3A628818A3E17000E5858B /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,22 +285,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC3A627818A3E17000E5858B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EC3A628A18A3E17000E5858B /* ruralsdkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC3A628118A3E17000E5858B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EC3A626E18A3E17000E5858B /* ruralsdk */;
-			targetProxy = EC3A628018A3E17000E5858B /* PBXContainerItemProxy */;
-		};
 		EC3A629518A4160000E5858B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EC3A626E18A3E17000E5858B /* ruralsdk */;
@@ -425,22 +310,6 @@
 				EC3A624918A3E14000E5858B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EC3A625E18A3E14000E5858B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC3A625F18A3E14000E5858B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EC3A628618A3E17000E5858B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC3A628718A3E17000E5858B /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -584,48 +453,6 @@
 			};
 			name = Release;
 		};
-		EC3A628F18A3E17000E5858B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rural.app/rural";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ruralsdk/ruralsdk-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "ruralsdkTests/ruralsdkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		EC3A629018A3E17000E5858B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/rural.app/rural";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ruralsdk/ruralsdk-Prefix.pch";
-				INFOPLIST_FILE = "ruralsdkTests/ruralsdkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -652,15 +479,6 @@
 			buildConfigurations = (
 				EC3A628C18A3E17000E5858B /* Debug */,
 				EC3A628D18A3E17000E5858B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC3A628E18A3E17000E5858B /* Build configuration list for PBXNativeTarget "ruralsdkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EC3A628F18A3E17000E5858B /* Debug */,
-				EC3A629018A3E17000E5858B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
